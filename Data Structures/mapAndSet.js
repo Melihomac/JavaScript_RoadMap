@@ -72,3 +72,17 @@ let set2 = new Set(["oranges", "apples", "bananas"]);
 set2.forEach((value, valueAgain, set2) => {
     console.log(value);
 });
+
+const ids = new Set([3, 6, 9, 7]);
+console.log(ids);
+
+const player = new Map([['key', 'value'], ['key2', 'value2']]);
+console.log(player);
+
+const players = new Map([['key', 'value'], ['small', 'medium'], ['fruit', 'another']]);
+
+players.forEach((key, value) => {
+    const message = `I want to be remeembered as the best ${key} pair ${value}`;
+    console.log(message)
+})
+
