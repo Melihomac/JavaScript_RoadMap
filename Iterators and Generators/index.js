@@ -9,6 +9,7 @@ var iterators = numbers[Symbol.iterator]();
 iterators.next();
 
 
+
 function* gen(x) {
     yield x;
     return
